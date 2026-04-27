@@ -2,8 +2,14 @@
 import "./globals.css"
 
 export const metadata = {
-  title: "Pollería El Sabor",
+  title: "Pollería pollito Pio",
   description: "El mejor pollo a la brasa en Lima 🔥",
+  icons: {
+    icon: [
+      { url: "/images/icons/favicon.ico"},
+      { url: "/images/icons/favicon.png", type:"image/png"},
+    ],
+  },
 }
 
 export default function RootLayout({

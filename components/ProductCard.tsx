@@ -1,5 +1,11 @@
+import { Product } from "@/types/product"
+
+type Props = {
+  product: Product;
+}
+
 // /components/ProductCard.tsx
-export default function ProductCard({ product }) {
+export default function ProductCard({ product }: Props) {
   const phone = "51936950012"
 
   return (

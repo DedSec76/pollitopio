@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative bg-[var(--chicken-brown)] h-[80vh] flex items-center justify-center text-white">
       <img
-        src="images/banner-pollo.png"
+        src="images/banner-pollo.webp"
         className="absolute w-full h-full object-cover"
         alt="pollo"
       />

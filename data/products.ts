@@ -7,7 +7,7 @@ export const products = [
     price: 60,
     category: "pollo",
     image:
-      "images/1pollo.png",
+      "images/1pollo.webp",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export const products = [
     price: 32,
     category: "pollo",
     image:
-      "images/medioPollo.png",
+      "images/medioPollo.webp",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const products = [
     price: 18,
     category: "pollo",
     image:
-      "images/cuartoPollo.png",
+      "images/cuartoPollo.webp",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ export const products = [
     price: 12,
     category: "pollo",
     image:
-      "images/octavoPollo.png",
+      "images/octavoPollo.webp",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ export const products = [
     price: 12,
     category: "chaufa",
     image:
-      "images/arrozchaufapollo.png",
+      "images/arrozchaufapollo.webp",
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ export const products = [
     price: 15,
     category: "chaufa",
     image:
-      "images/arrozchaufacarne.png",
+      "images/arrozchaufacarne.webp",
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ export const products = [
     price: 16,
     category: "chaufa",
     image:
-      "images/arrozchaufacerdo.png",
+      "images/arrozchaufacerdo.webp",
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ export const products = [
     price: 14,
     category: "chaufa",
     image:
-      "images/arrozchaufamariscos.png",
+      "images/arrozchaufamariscos.webp",
   },
   {
     id: 9,
@@ -79,7 +79,7 @@ export const products = [
     price: 17,
     category: "combo",
     image:
-      "images/mostro.png",
+      "images/mostro.webp",
   },
   {
     id: 10,
@@ -88,6 +88,6 @@ export const products = [
     price: 13,
     category: "combo",
     image:
-      "images/mostrito.png",
+      "images/mostrito.webp",
   },
 ]
