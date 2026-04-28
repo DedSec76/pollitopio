@@ -7,17 +7,17 @@ export default function Hero() {
       <img
         src="images/banner-pollo.webp"
         className="absolute w-full h-full object-cover"
-        alt="pollo"
+        alt="baner un pollo a la brasa jugoso de pollitos pio"
       />
 
-      <div className="absolute inset-0 bg-black/20" />
+      <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative text-center">
         <h1 className="text-5xl font-bold mb-4">
-          Pollo a la brasa jugoso 🔥
+          Pollo a la brasa jugoso Pollito Pio 🔥
         </h1>
         <p className="mb-6 text-lg">
-          Sabor auténtico que te hace volver
+          Sabor auténtico que te hace volver. Compra ahora en San Juan de Lurigancho
         </p>
 
         <a

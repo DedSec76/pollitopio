@@ -9,8 +9,8 @@ export default function Testimonials() {
       <div className="flex md:flex-row gap-6 max-w-[900px] m-auto">
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
           <img className="rounded-[100%] float-left" 
-               src="images/testimonials/testimonialgirl1.webp" 
-               alt="testimonio de una chica guapa"
+               src="/images/testimonials/testimonialgirl1.webp" 
+               alt="testimonio de una cliente satisfecha por el buen pollo a la brasa"
                width={50}
                height={20} />
           <div className="ml-4">
@@ -21,7 +21,7 @@ export default function Testimonials() {
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
           <img className="rounded-[100%] float-left" 
                src="images/testimonials/testimonialgirl3.webp" 
-               alt="testimonio de una chica guapa"
+               alt="testimonio de una clienta satisfecha"
                width={50}
                height={20} />
           <div className="ml-4">
@@ -32,8 +32,8 @@ export default function Testimonials() {
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
           
           <img className="rounded-[100%] float-left" 
-               src="images/testimonials/testimonialboy1.webp" 
-               alt="testimonio de una chica guapa"
+               src="/images/testimonials/testimonialboy1.webp" 
+               alt="testimonio de un cliente satisfecho"
                width={50}
                height={20} />
           <div className="ml-4">

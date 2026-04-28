@@ -3,7 +3,8 @@ import "./globals.css"
 
 export const metadata = {
   title: "Pollería pollito Pio",
-  description: "El mejor pollo a la brasa en Lima 🔥",
+  author: "Aldair Rutte Bazán",
+  description: "El mejor pollo a la brasa en Lima San Juan de Lurigancho 🔥",
   icons: {
     icon: [
       { url: "/images/icons/favicon.ico"},
