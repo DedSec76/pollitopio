@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 // /components/Testimonials.tsx
@@ -8,22 +9,24 @@ export default function Testimonials() {
 
       <div className="flex md:flex-row gap-6 max-w-[900px] m-auto">
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
-          <img className="rounded-[100%] float-left" 
+          <Image className="rounded-[100%] float-left" 
                src="/images/testimonials/testimonialgirl1.webp" 
                alt="testimonio de una cliente satisfecha por el buen pollo a la brasa"
                width={50}
-               height={20} />
+               height={20} 
+          />
           <div className="ml-4">
             <h3 className="font-bold text-left"> - Zulenka Gomez</h3>
             <p>"El mejor pollo de Lima 🔥"</p>
           </div>       
         </div>
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
-          <img className="rounded-[100%] float-left" 
+          <Image className="rounded-[100%] float-left" 
                src="images/testimonials/testimonialgirl3.webp" 
                alt="testimonio de una clienta satisfecha"
                width={50}
-               height={20} />
+               height={20} 
+          />
           <div className="ml-4">
             <h3 className="font-bold text-left"> - Damaris Vargas</h3>
             <p>"No le tenia fé, pero me encanto 😋"</p>
@@ -31,11 +34,12 @@ export default function Testimonials() {
         </div>
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
           
-          <img className="rounded-[100%] float-left" 
+          <Image className="rounded-[100%] float-left" 
                src="/images/testimonials/testimonialboy1.webp" 
                alt="testimonio de un cliente satisfecho"
                width={50}
-               height={20} />
+               height={20} 
+          />
           <div className="ml-4">
             <h3 className="font-bold text-left"> - Flavio Josefo</h3>
             <p>"Buen ambiente para comer sin ruido."</p>
