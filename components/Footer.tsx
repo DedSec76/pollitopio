@@ -1,5 +1,6 @@
 'use client'
 
+import Image from "next/image"
 import { useState } from "react"
 
 const trustPoints = [
@@ -45,6 +46,12 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 pt-14 pb-7">
         <div className="border-b border-white/15 pb-12">
           <div className="mb-10">
+            <h3 className="mb-4 text-3xl font-bold sm:text-4xl">Nuestra Información</h3>
+            <div className="mb-10 rounded-xl border border-white/12 bg-white/6 p-5 shadow-lg backdrop-blur-sm">
+              <p className="mb-4 letter-lg">📍Dirección: Av. Principal cdr. 23 los aviadores</p>
+              <p>🧑‍🍳Atención: Lunes a Sábado de 6:00 am - 10:00 pm</p>
+            </div>
+
             <div className="max-w-2xl">
               <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#ffd6a5]">
                 Confianza que se nota
@@ -74,18 +81,11 @@ export default function Footer() {
                 </article>
               ))}
             </div>
-
-            <a
-              href={`https://wa.me/${phone}?text=Quiero%20pedir`}
-              className="block w-[300px] mt-6  m-auto bg-green-500 px-6 py-3 rounded-lg text-center text-lg hover:bg-green-600"
-            >
-              Pedir por WhatsApp
-            </a>
           </div>
 
           <div className="rounded-xl border border-white/12 bg-white/6 p-5 shadow-lg backdrop-blur-sm">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#ffd6a5]">
-              Nuestra ubicacion
+              Nuestra ubicación
             </p>
             <h3 className="mt-3 text-2xl text-center font-bold">Visitanos o ubicanos fácil</h3>
 

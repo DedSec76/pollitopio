@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 // /components/Hero.tsx
 export default function Hero() {
   const phone = "51936950012"
@@ -14,17 +16,24 @@ export default function Hero() {
 
       <div className="relative text-center">
         <h1 className="text-5xl font-bold mb-4">
-          Pollo a la brasa jugoso Pollito Pio 🔥
+          El Pollo más jugoso de Lima Pollito Pio🍗
         </h1>
         <p className="mb-6 text-lg">
-          Sabor auténtico que te hace volver. Compra ahora en San Juan de Lurigancho
+          Entrega en 30 minutos o menos 
         </p>
 
         <a
           href={`https://wa.me/${phone}?text=Quiero%20pedir`}
           className="bg-green-500 px-6 py-3 rounded-lg text-lg hover:bg-green-600"
         >
-          Pedir por WhatsApp
+          <Image
+            className="inline-block mr-2"
+            src={"/images/icons/whatsapp.png"}
+            width={24}
+            height={24}
+            alt="Imagen del logo de whatsapp"
+          />
+          Pedir ahora por Whatsapp
         </a>
       </div>
     </section>
