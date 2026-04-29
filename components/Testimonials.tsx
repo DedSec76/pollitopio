@@ -10,7 +10,7 @@ export default function Testimonials() {
       <div className="flex md:flex-row gap-6 max-w-[900px] m-auto">
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
           <Image
-               src="/images/testimonials/testimonialgirl1.webp" 
+               src="/images/testimonials/testimonialGirl1.webp" 
                alt="testimonio de una cliente satisfecha por el buen pollo a la brasa"
                width={50}
                height={50}
@@ -27,7 +27,7 @@ export default function Testimonials() {
 
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
           <Image 
-               src="/images/testimonials/testimonialgirl2.webp" 
+               src="/images/testimonials/testimonialGirl2.webp" 
                alt="testimonio de una clienta satisfecha"
                width={50}
                height={50} 
@@ -45,7 +45,7 @@ export default function Testimonials() {
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
           
           <Image 
-               src="/images/testimonials/testimonialboy.webp" 
+               src="/images/testimonials/testimonialBoy.webp" 
                alt="Cliente satisfecho"
                width={50}
                height={50} 
