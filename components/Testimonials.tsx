@@ -34,11 +34,13 @@ export default function Testimonials() {
         </div>
         <div className="text-[var(--chicken-brown)] bg-white p-4 rounded-xl shadow">
           
-          <Image className="rounded-[100%] float-left" 
+          <Image className="rounded-full object-cover" 
                src="/images/testimonials/testimonialboy1.webp" 
-               alt="testimonio de un cliente satisfecho"
+               alt="Cliente satisfecho"
                width={50}
-               height={20} 
+               height={50} 
+               quality={100}
+               priority
           />
           <div className="ml-4">
             <h3 className="font-bold text-left"> - Flavio Josefo</h3>
